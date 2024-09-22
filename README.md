@@ -14,7 +14,7 @@ chmod +x /etc/init.d/fm350
 
 opkg update
 
-opkg install kmod-usb-net-rndis usb-modeswitch kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb-net-cdc-ether kmod-usb-net kmod-mii kmod-usb-serial-ch341 kmod-usb-uhci luci-proto-qmi luci-proto-mbim kmod-usb-net-qmi-wwan kmod-usb-serial-qualcomm picocom usbutils minicom
+opkg install kmod-usb-net-rndis usb-modeswitch kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb-net-cdc-ether kmod-usb-net kmod-mii kmod-usb-serial-ch341 kmod-usb-uhci luci-proto-qmi luci-proto-mbim kmod-usb-net-qmi-wwan kmod-usb-serial-qualcomm picocom usbutils minicom python3
 
 susb && lsusb -t\
 ls /dev/ttyUSB*
