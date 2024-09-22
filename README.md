@@ -24,9 +24,9 @@ AT+CGACT=1,1\
 AT+CGPADDR=1
 
 ifconfig eth2 down\
-ifconfig eth2 10.191.137.97\
+ifconfig eth2 19.199.199.99\
 ifconfig eth2 up\
-ip route add default via 100.97.15.1 dev eth2
+ip route add default via 19.199.199.1 dev eth2
 
 susb && lsusb -t\
 ls /dev/ttyUSB*
