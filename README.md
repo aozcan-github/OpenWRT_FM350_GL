@@ -9,5 +9,7 @@ wget https://github.com/aozcan-github/OpenWRT_FM350_GL/raw/refs/heads/main/fm350
 chmod +x /etc/init.d/fm350
 
 /etc/init.d/fm350 stop
+
 /etc/init.d/fm350 start
+
 /etc/init.d/fm350 status
